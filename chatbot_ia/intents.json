@@ -1,0 +1,174 @@
+{
+  "intents": [
+    {
+      "tag": "presentacion",
+      "patterns": [
+        "quien eres",
+        "¿Quién eres?",
+        "¿Cómo te llamas?",
+        "como te llamas",
+        "tu nombre",
+        "que eres",
+        "presentate",
+        "de donde eres",
+        "quien es usted",
+        "te puedo preguntar quien eres",
+        "dime tu nombre",
+        "cual es tu nombre"
+      ],
+      "responses": [
+        "Soy un chatbot desarrollado con Python y Flask. Mi función es ayudarte a resolver dudas.",
+        "Me llamo ChatBot IA, fui creado con Python y Flask para ayudarte con tus preguntas.",
+        "Soy tu asistente virtual, desarrollado con Python y Flask. Estoy aquí para ayudarte."
+      ]
+    },
+    {
+      "tag": "servicios",
+      "patterns": [
+        "servicios",
+        "¿Qué servicios ofrecen?",
+        "que servicios ofrecen",
+        "que ofrecen",
+        "ofrecen",
+        "que hacen",
+        "en que ayudan",
+        "que tipo de servicios",
+        "cuales son sus servicios",
+        "que puedo contratar",
+        "que me pueden ofrecer",
+        "tienen servicios"
+      ],
+      "responses": [
+        "Ofrecemos asesoría informática y desarrollo web.",
+        "Nuestros servicios incluyen asesoría informática y desarrollo web. ¿Te interesa alguno en particular?",
+        "Nos especializamos en asesoría informática y desarrollo web. ¿En qué te podemos ayudar?"
+      ]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": [
+        "ubicados",
+        "donde estan",
+        "ubicacion",
+        "direccion",
+        "lugar",
+        "donde quedan",
+        "donde se encuentran",
+        "en que ciudad estan",
+        "donde los encuentro",
+        "donde puedo visitarlos",
+        "donde estan ubicados",
+        "¿Dónde están ubicados?"
+      ],
+      "responses": [
+        "Nos encontramos en Tepic, Nayarit.",
+        "Estamos ubicados en Tepic, Nayarit. ¡Te esperamos!",
+        "Puedes visitarnos en Tepic, Nayarit."
+      ]
+    },
+    {
+      "tag": "horario",
+      "patterns": [
+        "horario",
+        "¿Cuál es su horario?",
+        "¿A qué hora abren?",
+        "hora",
+        "abren",
+        "atienden",
+        "horarios",
+        "cuando",
+        "a que hora cierran",
+        "dias de atencion",
+        "que dias trabajan",
+        "cuando puedo ir",
+        "hasta que hora"
+      ],
+      "responses": [
+        "Nuestro horario es de lunes a viernes de 8:00 a.m. a 4:00 p.m.",
+        "Atendemos de lunes a viernes de 8:00 a.m. a 4:00 p.m. ¡Te esperamos!",
+        "Nuestras oficinas están abiertas de lunes a viernes, de 8:00 a.m. a 4:00 p.m."
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "telefono",
+        "¿Cuál es su teléfono?",
+        "¿Cómo puedo comunicarme?",
+        "comunicarme",
+        "contacto",
+        "numero",
+        "llamar",
+        "correo",
+        "como los contacto",
+        "como me comunico",
+        "tienen telefono",
+        "numero de telefono",
+        "como puedo llamar"
+      ],
+      "responses": [
+        "Puedes comunicarte al 311-123-4567. También puedes escribirnos por correo electrónico.",
+        "Nuestro teléfono es 311-123-4567. También contamos con atención por correo electrónico.",
+        "Llámanos al 311-123-4567 o escríbenos por correo. Con gusto te atendemos."
+      ]
+    },
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "hey",
+        "saludos",
+        "buen dia",
+        "que tal",
+        "como estas",
+        "hello"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte?",
+        "¡Buen día! ¿Cómo puedo asistirte?",
+        "¡Hola! Estoy aquí para ayudarte. ¿Qué necesitas?",
+        "¡Saludos! ¿En qué te puedo apoyar hoy?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "adios",
+        "hasta luego",
+        "bye",
+        "chao",
+        "nos vemos",
+        "hasta pronto",
+        "me voy",
+        "hasta la proxima",
+        "eso es todo",
+        "gracias adios"
+      ],
+      "responses": [
+        "¡Hasta luego! Que tengas un excelente día.",
+        "¡Adiós! Vuelve cuando necesites ayuda.",
+        "¡Hasta pronto! Fue un placer atenderte.",
+        "¡Nos vemos! Recuerda que estamos aquí cuando nos necesites."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "te lo agradezco",
+        "mil gracias",
+        "que amable",
+        "gracias por tu ayuda"
+      ],
+      "responses": [
+        "¡Con mucho gusto! ¿Hay algo más en lo que pueda ayudarte?",
+        "¡Para eso estoy! No dudes en preguntar si necesitas algo más.",
+        "¡De nada! Es un placer ayudarte."
+      ]
+    }
+  ]
+}
